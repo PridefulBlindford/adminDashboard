@@ -1,0 +1,48 @@
+.header{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background-color:gray;
+}
+*{
+    font-family:sans-serif;
+}
+.search{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-column:1/2;
+    grid-row:1/2;
+
+}
+.search label{
+    grid-column:1/2;
+    
+}
+
+.search input{
+    grid-column:2;
+}
+.search button{
+    grid-column:3;
+}
+
+.middle-section{
+    grid-column:2;
+    display:drid;
+    grid-template-columns:1fr 1fr;
+}
+.middle-section .avatar{
+    grid-column:1;
+    background-color:yellow;
+
+}
+.middle-section p{
+    grid-column:2;
+}
+.right-section{
+    grid-column:3;
+    display:grid;
+    grid-template-column:repeat(6,1fr);
+}
+.right-section button{
+    color:blue;
+}
